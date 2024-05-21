@@ -1,0 +1,33 @@
+.player-container{
+    height: 50%;
+    width: 40%;
+    /* background-color: #868B8E; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+input{
+ height: 60%; 
+ border-radius: 5px;
+ 
+}
+
+button{
+    height: 60%;
+    width: 20%;
+    background-color: #747474;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.symbol{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.player-name{
+    font-size: 20px;
+    font-weight: 500;
+}

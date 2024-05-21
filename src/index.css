@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#root{
+    
+    /* background-image: url('../public/game.jpg'); */
+    background-size: cover;
+    /* opacity: 0.85; */
+    height: 100vh;
+    background-color:#BED7DC ;
+}

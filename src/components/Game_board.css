@@ -1,0 +1,47 @@
+.game-board{
+    width: 62%;
+    height: 95%;
+    margin-top: 75px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row button{
+    height: 75%;
+    width: 25%;
+    background-color: 	#c4dff6;
+    margin: 0px;
+    border-radius: 9px;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#winner-span{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 25px; 
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset button{
+    background-color: #948979;
+    height: 55px;
+    width: 75px;
+    color: black;
+}
